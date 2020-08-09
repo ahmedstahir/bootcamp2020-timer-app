@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders the component', () => {
     const component = shallow(<App />);
-    const elem = component.find('div');
+    const elem = component.find('img');
     expect(elem).toMatchSnapshot();
 });
